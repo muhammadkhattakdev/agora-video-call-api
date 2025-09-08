@@ -8,7 +8,7 @@ The Video Call API is a comprehensive RESTful service for building video calling
 
 ```
 Development: http://localhost:5000/api
-Production: https://your-domain.com/api
+Production: https://my-domain.com/api
 ```
 
 ## Authentication
@@ -683,7 +683,7 @@ Authorization: Bearer <admin-token>
 ```javascript
 const socket = io('http://localhost:5000', {
   auth: {
-    token: 'your-jwt-token'
+    token: 'my-jwt-token'
   }
 });
 ```
@@ -926,7 +926,7 @@ await client.publish([localAudioTrack, localVideoTrack]);
 
 ```javascript
 // Connect to socket
-const socket = io('your-api-url', {
+const socket = io('my-api-url', {
   auth: { token: localStorage.getItem('token') }
 });
 
@@ -958,6 +958,6 @@ See `.env.example` for all required environment variables.
 ## Support
 
 For API support:
-- Email: api-support@yourdomain.com
-- Documentation: https://docs.yourdomain.com
-- GitHub Issues: https://github.com/yourorg/video-call-api/issues
+- Email: api-support@mydomain.com
+- Documentation: https://docs.mydomain.com
+- GitHub Issues: https://github.com/myorg/video-call-api/issues
