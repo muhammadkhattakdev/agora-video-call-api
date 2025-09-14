@@ -951,13 +951,4 @@ socket.on('call-invitation', async (invitation) => {
 - Input validation on all requests
 - SQL injection protection through Mongoose ODM
 
-## Environment Variables
 
-See `.env.example` for all required environment variables.
-
-## Support
-
-For API support:
-- Email: api-support@mydomain.com
-- Documentation: https://docs.mydomain.com
-- GitHub Issues: https://github.com/myorg/video-call-api/issues
