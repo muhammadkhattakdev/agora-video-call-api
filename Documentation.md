@@ -960,4 +960,4 @@ See `.env.example` for all required environment variables.
 For API support:
 - Email: api-support@yourdomain.com
 - Documentation: https://docs.yourdomain.com
-- GitHub Issues: https://github.com/yourorg/video-call-api/issues
+- GitHub Issues: https://github.com/muhammadkhattakdev/agora-video-call-api/issues
